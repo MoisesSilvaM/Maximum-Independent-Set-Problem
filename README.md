@@ -10,6 +10,6 @@ The project is divided into 3 folders, functions, model and terminals. In the fo
 
 To launch the experiments write a Scipt where the classpath is defined, other important libraries of the project, the location of java, the ec.Evolve (which is the point of entry to ECJ), and the parameters with which to work. In these parameters you must define the problem that will be evaluated in the evolution, in this case "model/MISProblemEvo".
 
-MISProblemEvo has 4 main functions: Setup, Evaluate, Describe and Relative_Error. In Setup the data is loaded, in Evaluate the instances are evaluated and the best individual is stored when it is found, in Describe the outputs are ordered.
+MISProblemEvo has 3 main functions: Setup, Evaluate and Describe . In Setup the data is loaded, in Evaluate the instances are evaluated and the best individual is stored when it is found, in Describe the outputs are ordered.
 
 The class IndependentSet is one of the main class of the project, there the parameters of the instance are written, the functions and specific terminals designed for the problem.
